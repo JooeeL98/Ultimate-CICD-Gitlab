@@ -9,6 +9,7 @@ const app = express();
 const port = 3000;
 require("dotenv").config();
 
+
 // Middleware
 app.use(cors()); // Use this to allow cross-origin requests
 app.use(express.json()); // For parsing application/json
